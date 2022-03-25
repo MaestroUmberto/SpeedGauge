@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>MySpeedGauge.qml</file>
+        <file>shader/needleShader.frag.qsb</file>
+        <file>assets/BackgroundCircle Theme2.png</file>
+        <file>assets/BGC_Border.png</file>
+        <file>assets/BGC_Gradient.png</file>
+        <file>assets/BGC_Rim.png</file>
+        <file>assets/BGC_Solid.png</file>
+        <file>assets/Needle.png</file>
+        <file>assets/Speed Gauge PNG.png</file>
+        <file>assets/Speed Gauge.png</file>
+        <file>assets/Speed texture.png</file>
+        <file>assets/svgBackgroundCircle.png</file>
+        <file>assets/svgFull_Texture_BG.png</file>
+        <file>assets/TopCircle.png</file>
+        <file>assets/assets.qrc</file>
+    </qresource>
+</RCC>
