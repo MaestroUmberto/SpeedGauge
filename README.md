@@ -7,3 +7,6 @@ You may use input data generator available here: https://godbolt.org/z/6Pn7jdr6f
 
 usage:
 DataGenerator.exe 1000 quit | MySpeedGauge.exe 
+
+
+![Output](https://user-images.githubusercontent.com/22411359/160062822-478f0f7c-395d-4275-b633-d2266012e5b0.png)
