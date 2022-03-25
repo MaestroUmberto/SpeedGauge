@@ -167,6 +167,14 @@ class MyApp
     {
         std::cout<< "Total distance:    "<<std::setprecision(4)<<(this->TotalDistance/1000)<<" km."<<std::endl;
         std::cout<< "Average speed:     "<<std::setprecision(4)<<(AverageSpeed*3.6)<<" km/h."<<std::endl;
+        
+        for (auto const& [key, val] : HistogramData)
+        {
+            double TimeResultInSeconds = (double)val*DataInputIntervalSeconds;
+            std::cout << "Speed "<< key <<"km/h for " <<std::setprecision(4)
+                      << TimeResultInSeconds
+                      << " seconds of driving." <<std::endl;
+        }
     }
 
     void Quit()
