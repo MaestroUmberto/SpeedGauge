@@ -165,7 +165,6 @@ class MyApp
 
     void PrintResults() noexcept
     {
-        std::cout<< "Number of samples: "<<this->DataSamplesNumber<<std::endl;
         std::cout<< "Total distance:    "<<std::setprecision(4)<<(this->TotalDistance/1000)<<" km."<<std::endl;
         std::cout<< "Average speed:     "<<std::setprecision(4)<<(AverageSpeed*3.6)<<" km/h."<<std::endl;
     }
